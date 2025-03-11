@@ -8,13 +8,15 @@ class About extends PureComponent<Props, State> {
         super(props)
 
         this.state = {
-            
+
         }
     }
 
     render(): ReactNode {
         return (
-            <div>About</div>
+            <div className="bg-black h-screen w-screen">
+                <p className="text-white text-center text-2xl">Услуги и цены</p>
+            </div>
         )
     }
 }

@@ -14,7 +14,9 @@ class Blog extends PureComponent<Props, State> {
 
     render(): ReactNode {
         return (
-            <div>Blog</div>
+            <div className="bg-black h-screen w-screen">
+                <p className="text-white text-center text-2xl">Качество</p>
+            </div>
         )
     }
 }
